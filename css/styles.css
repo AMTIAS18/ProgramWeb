@@ -13,10 +13,27 @@
     align-items: center;
 }
 
-.titulo{
-    position: absolute;
-    margin: 8px;
+.contenedor {
+    position: relative;
 }
+
+.titulo {
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    right: calc(50% + 30px);
+}
+
+#logo {
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    left: 14%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+}
+
 
 .ventas{
     position: absolute;
@@ -61,6 +78,16 @@
     margin: 25px;
 }
 
+.box1 i,
+.box1 h3 {
+    display: inline-block;
+}
+
+.box1 i {
+    margin-right: -20px;
+    margin-left: 15px;
+}
+
 .comenzar2{
     background-color: blue;
     color: white;
@@ -96,6 +123,12 @@
     width: 70%;
 }
 
+#stars{
+    transform: scale(0.8);
+    width: auto;
+    height: auto;
+}
+
 .container-horizon{
     display: flex;
     height: 250px;
@@ -114,9 +147,21 @@
 
 .footer{
     display: flex;
-    margin-top: 30%;
+    margin-top: 15%;
     justify-content: center;
 }
+
+.social{
+    position: absolute;
+    left: 5%;
+    font-size: 25px;
+}
+
+.social i {
+    font-size: 24px;
+    margin-right: 50px;
+}
+
 
 .info a{
     position: absolute;
