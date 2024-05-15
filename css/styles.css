@@ -1,3 +1,15 @@
+body, h1, h2, h3, h4, h5, h6, p, button, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container,
+.container2,
+.container-horizon,
+.certificacion {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cambia los valores según sea necesario */
+}
+
+
 .box{
     display: flex;
     flex-direction: column;
@@ -152,7 +164,7 @@
 
 .container-horizon{
     display: flex;
-    height: 400px;
+    height: 370px;
 }
 
 .card1, .card2, .card3{
@@ -183,6 +195,7 @@
 
 .certificacion {
     display: flex;
+    margin-top: 30px;
     border-radius: 5px;
     background-color: goldenrod;
     height: 10%;
@@ -301,7 +314,7 @@
 
     .certificacion{
         flex-direction: column;
-        margin-top: 180%;
+        margin-top: 185%;
     }
 
     .footer{
